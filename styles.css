@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image:url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header {
+    
+    color: white;
+    font-size: xx-large;
+    text-align: left;
+    margin-left: 300px;
+
+}
+
+nav {
+    text-align: left;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    height:200px;
+    width: 250px;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: rgba(12, 24, 60, 0.845);
+    color: #208787cc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section{
+    height: 150px;
+    width: 500px;
+    border-style: solid;
+    border-radius:100px ;
+    background-color: rgba(255, 255, 255, 0.495);
+    margin-left:800px;
+    margin-bottom: 250px;
+    text-align: right;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    text-align: right;
+    font-size: 30px;
+    margin-right: 40px;
+}
+
+h4{
+    color:rgb(17, 2, 2);
+    text-align: right;
+    margin-top:30px;
+    margin-right: 155px;
+    font-size: 35px;
+}
+
+h6{
+    line-height: 0%;
+}
+h5{
+    color: bisque;
+    text-decoration: blink;
+    text-align: center;
+    letter-spacing: 20px;
+    margin-top: 30px;
+}
+
+h5:hover{
+   text-decoration: blink 1s;
+   
+}
+
+@media( max-width:768px){
+    body{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    section{
+        margin-left: 800px;
+        height: 100px;
+        width: 300px;
+        text-align: right;
+    }
+    h6{
+        font-size: medium;
+    }
+}
+
+footer {
+    align-content:center;
+   background-color: rgba(4, 17, 29, 0.647);
+    color: rgb(255, 255, 255);
+    height: 100px;
+}
